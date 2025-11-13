@@ -18,6 +18,6 @@ setup(
         "boundscheck": False, "wraparound": False, "cdivision": True, "initializedcheck": False
     }),
     include_package_data=True,
-    install_requires=["numpy>=1.22,<2.2","joblib>=1.2"],
+    install_requires=["numpy>=1.22","joblib>=1.2"],
     python_requires=">=3.9",
 )
