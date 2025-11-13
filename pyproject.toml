@@ -1,0 +1,14 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel", "Cython>=3.0.0", "numpy>=1.22,<2.2", "joblib>=1.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ParallelCondensedMSTBoruvka"
+version = "0.4.0"
+description = "Cython MST (Boruvka-style) + exact HDBSCAN EOM condensed tree (multi-child) + loss-based splitting. Correct edge accounting."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name="Your Name"}]
+license = {text="BSD-3-Clause"}
+dependencies = ["numpy>=1.22,<2.2", "joblib>=1.2"]
